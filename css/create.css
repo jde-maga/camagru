@@ -1,0 +1,39 @@
+.body
+{
+}
+
+#lside, #rside
+{
+	display:flex;
+	min-height: 10rem;
+	height: 50rem;
+	min-width: 10rem;
+	width: 10rem;
+	padding-top: 1rem;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: top;
+	background-color: lightsteelblue;
+}
+
+#lside > *, #rside > *
+{
+	background-color: lightsteelblue;
+}
+
+
+
+#canvas
+{
+	z-index: -1000;
+	position:absolute;
+}
+
+.snapper
+{
+	display:flex;
+	margin-right:auto;
+	margin-left: auto;
+	align-self: center;
+	flex-direction: column;
+}

@@ -1,0 +1,16 @@
+.picture > *
+{
+	text-align: center;
+}
+
+.comments
+{
+	margin-left: 10rem;
+	min-width: 25rem;
+}
+
+.comments > p
+{
+	border: 1px solid black;
+	padding: 5px;
+}

@@ -1,0 +1,15 @@
+.body
+{
+	flex-direction: column;
+}
+
+.allcomments > a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.allcomments > a:hover
+{
+	color: darkgreen;
+}

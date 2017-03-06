@@ -1,0 +1,57 @@
+@import url("global.css");
+
+.header
+{
+  display:flex;
+  background-color: deepskyblue;
+  height: 8rem;
+  min-width: 60rem;
+}
+
+.title
+{
+  padding-top: 1.5rem;
+  padding-left: 2rem;
+  display:flex;
+  font-family: 'Acme', sans-serif;
+  background-color: deepskyblue;
+  font-size: 5rem;
+  text-decoration: none;
+  color: mediumblue;
+  height: 6.5rem;
+}
+
+.title:hover, .login > *:hover, .topbar > *:hover
+{
+  color: darkgreen;
+}
+
+.login
+{
+  padding-top: 0.4rem;
+  margin-left:auto;
+  margin-right: 3rem;
+  text-align: center;
+  background-color: deepskyblue;
+}
+
+.login > *, .topbar > *
+{
+  background-color : deepskyblue;
+  text-decoration: none;
+  color: black;
+}
+
+.topbar
+{
+  padding-left: 10rem;
+  left: 10rem;
+  vertical-align: bottom;
+  background-color: deepskyblue;
+}
+
+.button
+{
+  margin-top: 0.3rem;
+  background-color: deepskyblue;
+}

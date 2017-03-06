@@ -1,0 +1,50 @@
+.body
+{
+	flex-direction: column;
+	min-width: 60rem;
+}
+
+.sorting
+{
+	align-self: center;
+}
+
+.gallery
+{
+	align-self: center;
+	display: flex;
+}
+
+.imgwrap
+{
+	text-align: center;
+}
+
+.gallery > *
+{
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.pages
+{
+	margin-top: 2rem;
+	align-self: center;
+}
+
+.mypics
+{
+	text-align: center;
+	flex-direction: column;
+}
+
+.pages > a, .sorting > a
+{
+	text-decoration: none;
+	color: black;
+}
+
+.pages > a:hover, .sorting > a:hover
+{
+	color: darkgreen;
+}

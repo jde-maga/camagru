@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Open+Sans');
+
+*
+{
+	background-color: lightblue;
+	margin: 0 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.body
+{
+	display:flex;
+	margin: 3rem 3rem 3rem 3rem;
+}
